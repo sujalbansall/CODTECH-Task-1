@@ -14,6 +14,13 @@
 ### Objective
 To develop a user-friendly web application named that allows users to efficiently manage their tasks through features such as adding, updating, and deleting to-do items.
 
+### Introduction
+This is a To-do list web application,it has dark and light modes with many features like add/drop tasks,mark completed,etc.
+
+![Screenshot 2024-10-19 171655](https://github.com/user-attachments/assets/d8375caa-c6f9-4012-ba8f-434b70af051d)
+
+![4](https://github.com/user-attachments/assets/5e043419-3793-48e1-837c-c0e8ddf8d29b)
+
 
 ### Key Activities
 - **Requirement Analysis**:Analyze requirements for task features.
