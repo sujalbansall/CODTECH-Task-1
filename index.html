@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <header>
+        <button id="toggleTheme" class="toggle-btn">Dark</button>
+    </header>
+
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div class="notification hidden" id="notification"></div>
+        
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <input type="date" id="dueDate" min="1900-01-01" max="2099-12-31">
+            <select id="prioritySelect">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <button id="addTaskButton">Add Task</button>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Search tasks...">
+
+        <h2 class="subheading">Added Tasks</h2>
+        
+        <div class="filter-buttons">
+            <button id="filterAll" class="filter-button active">All</button>
+            <button id="filterActive" class="filter-button">Active</button>
+            <button id="filterCompleted" class="filter-button">Completed</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
